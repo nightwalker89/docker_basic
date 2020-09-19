@@ -20,4 +20,4 @@ ADD . /app
 # For environments with multiple CPU cores, increase the number of workers
 # to be equal to the cores available.
 # CMD exec gunicorn --bind :8080 --workers 1 --threads 4 --timeout 0 main:app
-CMD [ "python", "./app/app.py" ]
+# CMD [ "python", "./app/app.py" ]
